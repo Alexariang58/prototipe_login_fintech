@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Electron
+/.vscode/
+/out/
+/build/
+/dist/
+/release/
+/coverage/
+/*.release/
+/*.build/
+!.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Operating System
+.DS_Store
+*.swp
+*.swo
+*.swm
+*.swn
+*.swl
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Configuration files
+.env
+.env.local
+.env.*.local
+
+# Cache and build output
+.cache/
+.cache-loader/
+dist/
+tmp/
+temp/
+
+# Output of 'yarn build'
+build/
+
+# Specific to NPM
+package-lock.json
